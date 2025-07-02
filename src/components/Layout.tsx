@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import Icon from "@/components/ui/icon";
 
 interface LayoutProps {
@@ -15,15 +15,15 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <header className="border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-6 py-8">
           <div className="flex justify-between items-center">
-            <Link to="/" className="text-2xl font-light text-gray-900">
+            <NavLink to="/" className="text-2xl font-light text-gray-900">
               Юлия Логинова
               <span className="block text-sm text-gray-500 font-normal">
                 свадебный фотограф
               </span>
-            </Link>
+            </NavLink>
 
             <nav className="flex space-x-8">
-              <Link
+              <NavLink
                 to="/"
                 className={`text-sm font-medium transition-colors ${
                   isActive("/")
@@ -32,8 +32,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 }`}
               >
                 Портфолио
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/about"
                 className={`text-sm font-medium transition-colors ${
                   isActive("/about")
@@ -42,8 +42,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 }`}
               >
                 О фотографе
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/pricing"
                 className={`text-sm font-medium transition-colors ${
                   isActive("/pricing")
@@ -52,8 +52,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 }`}
               >
                 Прайс
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/contact"
                 className={`text-sm font-medium transition-colors ${
                   isActive("/contact")
@@ -62,7 +62,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 }`}
               >
                 Контакты
-              </Link>
+              </NavLink>
             </nav>
           </div>
         </div>
