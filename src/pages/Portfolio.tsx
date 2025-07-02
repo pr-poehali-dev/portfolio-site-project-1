@@ -4,9 +4,9 @@ const Portfolio = () => {
   const portfolioImages = [
     {
       id: 1,
-      src: "/placeholder.svg",
-      alt: "Свадебная церемония на природе",
-      category: "Церемония",
+      src: "https://cdn.poehali.dev/files/3cd3645a-9fc9-49ff-9a03-74fae96a3366.jpg",
+      alt: "Романтичная свадебная фотосессия в парке",
+      category: "Романтика",
     },
     {
       id: 2,
