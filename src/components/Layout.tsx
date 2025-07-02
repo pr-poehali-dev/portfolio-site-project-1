@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Icon from "@/components/ui/icon";
 
 interface LayoutProps {
@@ -15,16 +15,16 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <header className="border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-6 py-8">
           <div className="flex justify-between items-center">
-            <NavLink to="/" className="text-2xl font-light text-gray-900">
+            <a href="/" className="text-2xl font-light text-gray-900">
               Юлия Логинова
               <span className="block text-sm text-gray-500 font-normal">
                 свадебный фотограф
               </span>
-            </NavLink>
+            </a>
 
             <nav className="flex space-x-8">
-              <NavLink
-                to="/"
+              <a
+                href="/"
                 className={`text-sm font-medium transition-colors ${
                   isActive("/")
                     ? "text-gray-900 border-b-2 border-gray-900 pb-1"
@@ -32,9 +32,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 }`}
               >
                 Портфолио
-              </NavLink>
-              <NavLink
-                to="/about"
+              </a>
+              <a
+                href="/about"
                 className={`text-sm font-medium transition-colors ${
                   isActive("/about")
                     ? "text-gray-900 border-b-2 border-gray-900 pb-1"
@@ -42,9 +42,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 }`}
               >
                 О фотографе
-              </NavLink>
-              <NavLink
-                to="/pricing"
+              </a>
+              <a
+                href="/pricing"
                 className={`text-sm font-medium transition-colors ${
                   isActive("/pricing")
                     ? "text-gray-900 border-b-2 border-gray-900 pb-1"
@@ -52,9 +52,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 }`}
               >
                 Прайс
-              </NavLink>
-              <NavLink
-                to="/contact"
+              </a>
+              <a
+                href="/contact"
                 className={`text-sm font-medium transition-colors ${
                   isActive("/contact")
                     ? "text-gray-900 border-b-2 border-gray-900 pb-1"
@@ -62,7 +62,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 }`}
               >
                 Контакты
-              </NavLink>
+              </a>
             </nav>
           </div>
         </div>
