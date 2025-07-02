@@ -16,7 +16,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="max-w-6xl mx-auto px-6 py-8">
           <div className="flex justify-between items-center">
             <Link to="/" className="text-2xl font-light text-gray-900">
-              Анна Петрова
+              Юлия Логинова
               <span className="block text-sm text-gray-500 font-normal">
                 свадебный фотограф
               </span>
@@ -74,7 +74,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex justify-between items-center">
             <div className="text-sm text-gray-500">
-              © 2025 Анна Петрова. Все права защищены.
+              © 2025 Юлия Логинова. Все права защищены.
             </div>
             <div className="flex space-x-6">
               <a

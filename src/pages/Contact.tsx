@@ -42,10 +42,10 @@ const Contact = () => {
                 <div>
                   <p className="font-medium text-gray-900">Email</p>
                   <a
-                    href="mailto:anna@example.com"
+                    href="mailto:yulia@example.com"
                     className="text-gray-600 hover:text-gray-900"
                   >
-                    anna@example.com
+                    yulia@example.com
                   </a>
                 </div>
               </div>
@@ -61,10 +61,10 @@ const Contact = () => {
                 <div>
                   <p className="font-medium text-gray-900">Telegram</p>
                   <a
-                    href="https://t.me/annaphotographer"
+                    href="https://t.me/yuliaphotographer"
                     className="text-gray-600 hover:text-gray-900"
                   >
-                    @annaphotographer
+                    @yuliaphotographer
                   </a>
                 </div>
               </div>
@@ -76,10 +76,10 @@ const Contact = () => {
                 <div>
                   <p className="font-medium text-gray-900">Instagram</p>
                   <a
-                    href="https://instagram.com/anna_photographer"
+                    href="https://instagram.com/yulia_photographer"
                     className="text-gray-600 hover:text-gray-900"
                   >
-                    @anna_photographer
+                    @yulia_photographer
                   </a>
                 </div>
               </div>
